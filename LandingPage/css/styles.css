@@ -1,0 +1,380 @@
+/*'''''''''''   global basic styles mobile first     start''''''''''*/
+@font-face {
+  font-family: headingsfont;
+  src:url(../fonts/JosefinSans-BoldItalic.ttf);
+}
+@font-face {
+  font-family: textfont;
+  src:url(../fonts/TitilliumWeb-Light.ttf);
+}
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/*'''''''''''   global basic styles mobile first     start''''''''''*/
+/*'''''''''''   header styles     start''''''''''*/
+header {
+  height: 60px;
+  background-color: black;
+}
+.logo a  {
+  display: flex;
+  justify-content: flex-Start;
+  padding-top: 10px;
+  padding-left: 30px;
+  text-decoration: none;
+  font-family: headingsfont;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 40px;
+  color: white;
+}
+
+/*'''''''''''   header styles     End''''''''''*/
+
+
+/*'''''''''''   masthead styles    start''''''''''*/
+.heroarea {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  opacity: 0.7;
+}
+.herotext {
+
+  text-align: center;
+  font-family: headingsfont;
+  font-size: 27px;
+  font-weight: bold;
+  color: white;
+}
+.addtocartbutton {
+  background-color: #2B78E4;
+  color:white;
+  font-family: headingsfont;
+  font-style: italic;
+  width: 200px;
+  height: 25px;
+  font-size: 19px;
+  padding-top: 10px;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid black;
+}
+.addtocartbutton:hover {
+  background-color: black;
+  border:2px solid white;
+}
+.masthead {
+  background-image: url(../images/main.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*'''''''''''   masthead   styles   End''''''''''*/
+
+/*'''''''''''   jackets area    start''''''''''*/
+.jackets {
+  display: grid;
+  grid-template-columns:  1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+
+
+}
+.blackjacket > img , .redjacket > img , .whitejacket > img , .yellowjacket > img{
+  width: 150px;
+  height: 200px;
+
+  transition: transform .2s;
+
+}
+.jackets > div {
+  display: flex;
+  justify-content: center;
+
+
+  overflow: hidden;
+
+
+}
+.jackets > div > img:hover {
+  transform: scale(1.07);
+}
+
+
+
+/*'''''''''''   jackets area     End''''''''''*/
+
+/*'''''''''''   moreaboutproduct  section  start''''''''''*/
+.moreaboutproduct {
+  background-color: black;
+  padding-top: 20px;
+
+}
+
+.moreaboutproduct > h1 {
+  color: white;
+  font-family: headingsfont;
+  text-align: center;
+
+}
+.moreaboutproduct > p {
+  text-align: center;
+  color: white;
+  padding:0 10px;
+  font-family: textfont;
+  font-size: 18px;
+
+}
+#moredetails {
+  padding-bottom: 20px;
+}
+
+
+
+/*'''''''''''   moreaboutproduct  section  End''''''''''*/
+
+
+/*'''''''''''   features section  Start ''''''''''*/
+.features {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.windproof , .waterproof , .heatretention {
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.windproof > img , .waterproof > img  , .heatretention > img  {
+  width: 37px;
+  height: 37px;
+  align-self: center;
+  border: 2px solid;
+  border-radius: 20px;
+
+}
+
+.windproof > h1  , .waterproof > h1  , .heatretention > h1 {
+  text-align: center;
+  font-family: headingsfont;
+  font-weight: bold;
+
+}
+.windproof > p  , .waterproof > p  , .heatretention > p {
+  text-align: center;
+  padding: 25px;
+  font-family: textfont;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+/*'''''''''''   features section  END ''''''''''*/
+
+/*'''''''''''   socialproof section  start ''''''''''*/
+.socialproof {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 30px 20px;
+}
+ .reviewerimage > img  {
+  width: 110px;
+  height: 110px;
+  border: 2px solid white;
+  border-radius: 100%;
+  padding: 20px;
+
+}
+
+.reviewertext  {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+
+}
+.reviewertext > h1 {
+  display: flex;
+  color: white;
+  justify-content: center;
+  margin: 0;
+  font-family: headingsfont;
+}
+.reviewertext > p {
+  display: flex;
+  color: white;
+  margin:0;
+  justify-content: center;
+  text-align: center;
+  font-family: textfont;
+}
+
+/*'''''''''''   socialproof section   END ''''''''''*/
+
+/*'''''''''''   final  section  start''''''''''*/
+.finalsection {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.readytobuy {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.readytobuy  p {
+  text-align: center;
+  font-family: headingsfont;
+  font-weight: bold;
+}
+.readytobuy a {
+  align-self: center;
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+  height: 25px;
+  background-color:  #2B78E4;
+  color: white;
+  font-family: headingsfont;
+  font-size: 19px;
+  padding-top: 7px;
+}
+
+.readytobuy a:hover {
+  background-color: black;
+}
+.sizechart {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+ .sizechart img {
+   width: 300px;
+
+ }
+
+
+/*'''''''''''   final  section    END ''''''''''*/
+
+/*'''''''''''   footer   start ''''''''''*/
+footer {
+  height: 60px;
+  background-color: black;
+  color: white;
+}
+footer h1 {
+  font-family: headingsfont;
+  text-align: center;
+  padding-top: 15px;
+  font-weight: bold;
+}
+
+
+/*'''''''''''   footer   END ''''''''''*/
+/*'''''''''''   global basic styles mobile first     End''''''''''*/
+
+
+/*'''''''''''   styles for medium devices start''''''''''*/
+@media screen and (min-width : 790px) {
+  .heroarea {
+    background-color: unset;
+    opacity: unset;
+    justify-content: center;
+    padding-left: 100px;
+    align-items: flex-start;
+  }
+  .herotext {
+    color: black;
+  }
+  .masthead {
+    background-position: right;
+    margin-right: 6%;
+  }
+  .addtocartbutton {
+    width: 250px;
+  }
+
+}
+
+/*'''''''''''   styles for medium devices End''''''''''*/
+
+
+/*'''''''''''   styles for large devices start''''''''''*/
+@media screen and (min-width: 950px) {
+  .heroarea {
+    padding-left: 20%;
+  }
+  .masthead {
+    margin-right: 9%;
+  }
+  .jackets {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .moreaboutproduct {
+    padding: 10%;
+  }
+  .features {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 80px 30px 50px 30px;
+  }
+  .windproof > p  , .waterproof > p  , .heatretention > p {
+    font-size: 15px;
+  }
+.socialproof {
+  flex-direction: row;
+  padding: 10%;
+}
+.reviewertext {
+  padding-left: 20px;
+}
+.reviewertext h1 {
+  justify-content: flex-start;
+
+}
+.reviewertext p {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+  .finalsection {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10%;
+  }
+
+
+
+}
+
+
+@media screen and (min-width: 1068px) {
+  .features {
+    flex-wrap: nowrap;
+  }
+  .windproof > p  , .waterproof > p  , .heatretention > p {
+    text-align: left;
+  }
+}
+
+
+/*'''''''''''   styles for large devices end''''''''''*/
