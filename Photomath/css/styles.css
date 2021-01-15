@@ -1,0 +1,531 @@
+/*-- /////////........................./////////////////
+///////////////////  Mobile first layout global styles  start//////////////////*/
+@font-face {
+  font-family: headingfont ;
+  src: url(../fonts/PottaOne-Regular.ttf);
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: textfont;
+  src: url(../fonts/PTSans-Italic.ttf);
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#forlargedevices {
+  display: none;
+}
+
+
+/*-- /////////........................./////////////////
+///////////////////  Header styles  start//////////////////*/
+ header  {
+   height: 70px;
+   display: flex;
+   justify-content: center;
+   box-shadow: 0px 5px 4px grey;
+ }
+header a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+}
+header h1 {
+   display: inline-block;
+   padding-left: 15px;
+   font-family: headingfont;
+
+
+
+}
+ header img {
+   width: 50px;
+   height: 50px;
+ }
+
+
+/*-- /////////........................./////////////////
+///////////////////  header styles  End//////////////////*/
+
+/*-- /////////........................./////////////////
+///////////////////  afterheader area start  //////////////////--*/
+.afterheader {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.heroarea {
+  width:100%;
+}
+.heroarea h2 {
+  display: flex;
+  font-family: headingfont;
+
+}
+.heroarea em {
+  display: flex;
+  margin-top: -20px;
+
+
+
+}
+
+.downloadbutton {
+  display: flex;
+  justify-content: ;
+  padding-top: 10px;
+
+}
+
+
+.playstorebadge  img , .appstorebadge img{
+ width: 120px;
+ height: 46px;
+
+}
+.herovideo {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+.herovideo video{
+   width: 100%;
+   box-shadow: 10px 10px  5px grey;
+}
+/*-- /////////........................./////////////////
+///////////////////  afterheader area End  //////////////////--*/
+
+
+/*-- /////////........................./////////////////
+///////////////////  topicscovered area start  //////////////////--*/
+.topicscovered {
+  background-color: #87C540;
+  padding: 10px;
+}
+.topicscovered h2 {
+  text-align: center;
+  font-family: headingfont;
+
+  color: white;
+
+
+}
+.topics {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.topics div {
+
+  /*  height: 100px; */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+div p span {
+  font-weight: bold;
+}
+.topics div p {
+  font-style: italic;
+  font-size: 20px;
+
+}
+
+.section1 {
+ background-color: #E84E40;
+ box-shadow: 10px 10px 5px black;
+ border-left: 5px solid white;
+ border-top: 5px solid white;
+ border-radius: 10px;
+
+
+}
+
+.section2 {
+ background-color: #F6994B;
+ box-shadow: -10px 10px 5px black;
+ border-right: 5px solid white;
+ border-top: 5px solid white;
+ border-radius: 10px;
+
+}.section3 {
+ background-color: #0192BA;
+ box-shadow: 10px 10px 5px black;
+ border-left: 5px solid white;
+ border-top: 5px solid white;
+ border-radius: 10px;
+
+}.section4 {
+ background-color: #B27D32;
+ box-shadow: -10px 10px 5px black;
+ border-right: 5px solid white;
+ border-top: 5px solid white;
+ border-radius: 10px;
+
+}
+
+
+
+/*-- /////////........................./////////////////
+///////////////////  topicscovered area end  //////////////////--*/
+
+/*-- /////////........................./////////////////
+///////////////////  features area Start  //////////////////--*/
+.features{
+  background-color: #BF0C34;
+  padding-top: 10px;
+  padding-bottom: 20px;
+
+}
+ .features h2 {
+   text-align: center;
+   color: white;
+   font-family: headingfont;
+ }
+
+#onlyforsmalldevices {
+  width: 90%;
+  margin: 0 auto;
+}
+#onlyforsmalldevices p {
+  display: flex;
+  color:white;
+  font-family: textfont;
+
+}
+#onlyforsmalldevices p i {
+  text-align: center;
+  color: black;
+  padding-right: 10px;
+  width: 20px
+
+}
+
+/*-- /////////........................./////////////////
+///////////////////  features area End  //////////////////--*/
+
+/*-- /////////........................./////////////////
+///////////////////  review area Start  //////////////////--*/
+.review {
+    background-color: #E84E40;
+}
+.insidereviewscontainer {
+  padding-top: 10px;
+  width: 90%;
+  margin: 0 auto;
+}
+.insidereviewscontainer figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.insidereviewscontainer  img {
+  width: 90px;
+  height: 90px;
+  border: 3px solid white;
+  border-radius: 50px;
+
+}
+.insidereviewscontainer figcaption {
+  font-family: headingfont;
+  padding-top: 5px;
+
+}
+.insidereviewscontainer p {
+  text-align: center;
+  color: white;
+  font-family: textfont;
+}
+.stars {
+  text-align: center;
+  color: #F1C232;
+  padding-bottom: 20px;
+}
+
+
+
+
+/*-- /////////........................./////////////////
+///////////////////  review area End  //////////////////--*
+
+/*-- /////////........................./////////////////
+///////////////////  photomathplus area Start  //////////////////--*/
+.photomathplus {
+  width: 90%;
+  margin: 0 auto;
+}
+.photomathplusinfo {
+  text-align: center;
+}
+.photomathplusinfo p {
+  font-size: 15px;
+  font-family: headingfont;
+}
+.photomathplusinfo h2 {
+  font-family: headingfont;
+  color: #e84e40;
+}
+.photomathplusfeatures figure {
+  display: flex;
+  justify-content: center;
+}
+.photomathplusfeatures img {
+    width: 70vw;
+
+}
+
+.photomathplusfeatures h3 {
+  font-family: headingfont;
+}
+.photomathplusfeatures p {
+  font-family: textfont;
+}
+.trialbutton {
+  display: inline-block;
+  background-color: #2b78e4;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 20px;
+  height: 50px;
+  padding-bottom: 10px;
+
+
+  }
+.trialbutton a{
+  display: inline-block;
+  text-decoration: none;
+
+
+}
+.trialbutton h2 {
+  color: #ffffff;
+}
+
+.trialbutton:hover {
+  background-color: black;
+}
+
+
+
+
+
+/*-- /////////........................./////////////////
+///////////////////  photomathplus area Start  //////////////////--*/
+
+footer {
+  box-shadow: 0px -5px 4px grey;
+  display: flex;
+  justify-content: center;
+}
+footer a {
+  text-decoration: none;
+  display: inline-block;
+}
+footer h2 {
+  text-align: center;
+  font-family: headingfont;
+}
+
+
+
+/*-- /////////........................./////////////////
+///////////////////  Mobile first layout global styles  End//////////////////*/
+
+
+/*-- /////////........................./////////////////
+///////////////////  For large Devices styles  Start//////////////////*/
+@media  screen and (min-width:1024px){
+  header {
+    justify-content: flex-start;
+    padding-left: 59px;
+  }
+  header h1 {
+    font-size: 50px;
+  }
+  .afterheader {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+
+  }
+
+  .heroarea h2 {
+
+  font-size: 45px;
+
+  }
+  .downloadbutton .appstorebadge {
+    margin-right: 30px;
+  }
+
+
+  .topicscovered h2 {
+    font-size: 45px;
+  }
+
+  .topics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding-bottom: 30px;
+    /*grid-template-areas:
+      "basicmath space"
+      "algebra space"
+      "calculus space"
+      "trignometry space";*/
+
+  }
+
+  .section1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+  }
+  .section2{
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+  }
+  .section3{
+    grid-column: 1/2;
+    grid-row: 3/4;
+
+  }
+  .section4{
+    grid-column: 2/3;
+    grid-row: 4/5;
+
+  }
+
+  #onlyforsmalldevices {
+    display: none;
+  }
+.features {
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+.features h2 {
+  font-size: 45px;
+}
+
+  #forlargedevices {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 24% );
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 1.33%;
+    grid-row-gap: 40px;
+  }
+  #forlargedevices > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 290px;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 0;
+    background-color: white;
+    color:black;
+    transition: background-color 3s , color 3s;
+
+  }
+  #forlargedevices > div:hover {
+    background-color: black;
+    color: white;
+    width: -20%;
+
+  }
+
+
+
+ i {
+   text-align: center;
+   font-size: 50px;
+   width: 50px;
+   height: 50px;
+ }
+ #forlargedevices p{
+   text-align: center;
+
+   font-family: textfont;
+   font-size: 20px;
+ }
+.review {
+  padding: 150px 0;
+}
+.review p {
+  font-size: 30px;
+}
+ .topicscovered {
+   padding: 10px 0;
+ }
+ .afterheader {
+   padding: 100px 0;
+ }
+
+
+ .photomathplusfeatures {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr 1fr;
+   grid-template-areas:
+   "plusfeature1 art"
+   "plusfeature2 art"
+   "plusfeature3 art"
+   "trial art";
+ }
+ .photomathplusfeatures figure {
+   grid-area: art;
+   position: relative;
+ }
+ .photomathplusfeatures img {
+   position: absolute;
+   top: -30px;
+   width: 550px;
+ }
+ .photomathplusinfo h2 {
+   font-size: 45px;
+ }
+ .photomathplusinfo p {
+   font-size: 40px;
+ }
+
+ .photoplusfeature1 {
+   grid-area:plusfeature1;
+ }
+ .photoplusfeature2 {
+   grid-area: plusfeature2;
+ }
+ .photoplusfeature3 {
+   grid-area: plusfeature3;
+ }
+ .trialbutton {
+
+   grid-area:trial;
+ }
+
+
+
+}
+
+
+
+/*-- /////////........................./////////////////
+///////////////////  For large Devices styles  Start//////////////////*/
